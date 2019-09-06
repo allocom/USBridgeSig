@@ -19,3 +19,21 @@ Updated Files are ax88179_178a.c , ax88179_178a.h and copy to linux source tree 
 ./Linux/drivers/net/usb/ax88179_178a.c
 ./Linux/drivers/net/usb/ax88179_178a.h
 
+https://raw.githubusercontent.com/allocom/USBridgeSig/master/ethernet/ax88179.tar
+
+on linux 
+
+wget https://raw.githubusercontent.com/allocom/USBridgeSig/master/ethernet/ax88179.tar
+
+
+**************
+updated version check using modinfo : run below command , result will be v0.1.4
+
+modinfo ax88179_178a | grep version
+
+version:        v0.1.4
+
+
+info : Pull Request  submited on Raspberrypi Linux kernel repository
+
+https://github.com/raspberrypi/linux/pull/2999
